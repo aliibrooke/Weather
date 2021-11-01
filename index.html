@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button><i id="search" class="fa fa-search" aria-hidden="true"></i></button>
+            </input>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in city</h2>
+            <h1 class="temp">51°F</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04d.png" alt="" class="icon">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">60%</div>
+            <div class="wind">4.2 km/h</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
